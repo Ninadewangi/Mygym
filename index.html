@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyGym | Chhindwara</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            MY<span>GYM</span>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO</p>
+
+            <h1>
+                MY<span>GYM</span>
+            </h1>
+
+            <h2>
+                BUILD YOUR<br>
+                <span>BEST SELF.</span>
+            </h2>
+
+            <p class="hero-text">
+                Train stronger. Feel better. Become your best version.
+            </p>
+
+            <div class="buttons">
+                <a href="#contact" class="btn primary">
+                    Join Now
+                </a>
+
+                <a href="#about" class="btn secondary">
+                    Explore
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <p class="section-label">ABOUT US</p>
+
+        <h2 class="section-title">
+            MORE THAN A <span>GYM</span>
+        </h2>
+
+        <p class="about-text">
+            MyGym is a fitness space designed for people who want to
+            become stronger, healthier and more confident.
+            Whether you're starting your fitness journey or improving
+            your performance, MyGym is here to support you.
+        </p>
+
+        <div class="info-grid">
+
+            <div class="info-card">
+                <div class="icon">💪</div>
+                <h3>Strength</h3>
+                <p>
+                    Build strength with quality equipment
+                    and effective workouts.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon">🔥</div>
+                <h3>Energy</h3>
+                <p>
+                    Train with motivation and keep pushing
+                    your limits.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon">🏆</div>
+                <h3>Results</h3>
+                <p>
+                    Stay consistent and work towards your
+                    fitness goals.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FACILITIES -->
+    <section id="facilities" class="section dark-section">
+
+        <p class="section-label">WHY MYGYM</p>
+
+        <h2 class="section-title">
+            TRAIN <span>SMARTER</span>
+        </h2>
+
+        <div class="facility-grid">
+
+            <div class="facility-card">
+                <div class="facility-icon">🏋️</div>
+                <h3>Strength Training</h3>
+                <p>
+                    Equipment for strength and muscle training.
+                </p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">🏃</div>
+                <h3>Cardio</h3>
+                <p>
+                    Improve stamina and cardiovascular fitness.
+                </p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">⚡</div>
+                <h3>Workout Zone</h3>
+                <p>
+                    A dedicated space to focus on your workout.
+                </p>
+            </div>
+
+            <div class="facility-card">
+                <div class="facility-icon">🎯</div>
+                <h3>Goal Focused</h3>
+                <p>
+                    Stay consistent and keep working toward your goals.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TIMINGS -->
+    <section class="timing-section">
+
+        <div class="timing-box">
+
+            <div>
+                <p class="section-label">OPENING HOURS</p>
+
+                <h2>
+                    READY TO <span>TRAIN?</span>
+                </h2>
+            </div>
+
+            <div class="hours">
+                <p>MONDAY – SUNDAY</p>
+                <strong>5:00 AM – 10:00 PM</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2 class="section-title">
+            JOIN <span>MYGYM</span>
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+
+                    <div>
+                        <h3>Location</h3>
+                        <p>
+                            Beside Nagpur Road,<br>
+                            Chhindwara, Madhya Pradesh
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+
+                    <div>
+                        <h3>Phone</h3>
+
+                        <a href="tel:4898987888">
+                            4898987888
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">🕐</div>
+
+                    <div>
+                        <h3>Opening Hours</h3>
+                        <p>
+                            5:00 AM – 10:00 PM
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <form id="contactForm" class="contact-form">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Your Phone Number"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn primary">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            MY<span>GYM</span>
+        </div>
+
+        <p>
+            Train Hard. Stay Strong. Be Better.
+        </p>
+
+        <p class="copyright">
+            © 2026 MyGym. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
